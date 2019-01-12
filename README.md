@@ -29,7 +29,6 @@ Starting with the SUN school program, we created a text notification app where f
 * AWS Lambda 
 * DynamoDB
 * SNS (Simple Notification Service)
-
 * The backend will need to be deployed within IRCO's AWS Account using CloudFormation
 
 ## Getting Started - front-end
