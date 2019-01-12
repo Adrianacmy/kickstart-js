@@ -48,7 +48,8 @@ Starting with the SUN school program, we created a text notification app where f
     --s3-bucket bucket-name \
     --output-template-file packaged-template.yaml
     ```
-     1. Docs: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-deploying.html 
+
+  3. AWS Docs: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-deploying.html 
 
 ## Legal
 Copyright 2019
