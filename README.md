@@ -11,7 +11,7 @@ This app was created in ~6 hours as part of the WeCode2018 Hackathon. The partic
 * Ben - Front-end
 * Anna - Back-end
 
-![Screenshot](client/public/screenShot.png?raw=true "Title")
+![Screenshot](client/public/screenShot2.png?raw=true "Title")
 
 ### Problem:
 
@@ -21,6 +21,10 @@ IRCO offers hundreds of different programs to thousands of immigrants and refuge
 
 Starting with the SUN school program, we created a text notification app where families can sign up to receive reminders about upcoming after-school classes. With a very simple UI, users are able to easily add their phone number, select their school, and opt in to reminders about their chosen programs. Using the To Google Translate Firefox extension, users can translate messages into their language of choice. This app could potentially be expanded to deliver reminders to participants in the various other IRCO programs.
 
+#### To Do:
+
+1. Fix SNS topic functionality
+2. Add functionality to `src/sendScheduledMessage` to process events added to the `phoneData` table and set up additional SNS topics that regularly message users
 
 ## Technologies Used
 
@@ -42,14 +46,14 @@ Starting with the SUN school program, we created a text notification app where f
   1. Clone the back-end repo: https://github.com/bildungsroman/irco-backend
   2. The `template.yaml` file is an AWS SAM serverless template. It needs to be deployed to AWS CloudFormation using either the AWS Console or the AWS CLI:
 
-    ```bash
+    ``` bash
     $ aws cloudformation package \
     --template-file /path_to_template/template.yaml \
     --s3-bucket bucket-name \
     --output-template-file packaged-template.yaml
     ```
 
-  3. AWS Docs: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-deploying.html 
+  3. AWS Docs on deploying: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-deploying.html 
 
 ## Legal
 Copyright 2019
