@@ -25,19 +25,33 @@ Starting with the SUN school program, we created a text notification app where f
 ## Technologies Used
 
 * React
+* AWS CloudFormation
 * AWS Lambda 
 * DynamoDB
 * SNS (Simple Notification Service)
 
-* Deployed within IRCO's AWS Account using CloudFormation
+* The backend will need to be deployed within IRCO's AWS Account using CloudFormation
 
-## Getting Started
+## Getting Started - front-end
 
   1. Download the .zip file or clone from the command line
   2. Run ``` npm install ```
   3. Then run ``` npm run start ```
 
+## Getting Started - back-end
+
+  1. Clone the back-end repo: https://github.com/bildungsroman/irco-backend
+  2. The `template.yaml` file is an AWS SAM serverless template. It needs to be deployed to AWS CloudFormation using either the AWS Console or the AWS CLI:
+     1. 
+    ```yaml
+    $ aws cloudformation package \
+    --template-file /path_to_template/template.yaml \
+    --s3-bucket bucket-name \
+    --output-template-file packaged-template.yaml
+    ```
+     1. Docs: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-deploying.html 
+
 ## Legal
-Copywrite 2019
+Copyright 2019
 MIT License
 
