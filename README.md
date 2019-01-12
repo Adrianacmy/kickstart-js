@@ -43,7 +43,7 @@ Starting with the SUN school program, we created a text notification app where f
   1. Clone the back-end repo: https://github.com/bildungsroman/irco-backend
   2. The `template.yaml` file is an AWS SAM serverless template. It needs to be deployed to AWS CloudFormation using either the AWS Console or the AWS CLI:
      1. 
-    ```yaml
+    ```bash
     $ aws cloudformation package \
     --template-file /path_to_template/template.yaml \
     --s3-bucket bucket-name \
