@@ -22,6 +22,10 @@ IRCO offers hundreds of different programs to thousands of immigrants and refuge
 
 Starting with the SUN school program, we created a text notification app where families can sign up to receive reminders about upcoming after-school classes. With a very simple UI, users are able to easily add their phone number, select their school, and opt in to reminders about their chosen programs. Using the To Google Translate Firefox extension, users can translate messages into their language of choice. This app could potentially be expanded to deliver reminders to participants in the various other IRCO programs.
 
+### Target
+
+This app would allow parents of children participating in SUN classes to sign up and receive text notifications reminding them of their children's schedule, as well as adults in the adult classes. The text message format is accessible to anyone with any kind of mobile phone, allowing those without smartphones to participate as well.
+
 #### To Do:
 
 1. Fix SNS topic functionality
