@@ -26,6 +26,8 @@ Starting with the SUN school program, we created a text notification app where f
 
 This app would allow parents of children participating in SUN classes to sign up and receive text notifications reminding them of their children's schedule, as well as adults in the adult classes. The text message format is accessible to anyone with any kind of mobile phone, allowing those without smartphones to participate as well.
 
+For the purposes of security and privacy, the app does not collect user information such as name or location, just phone number.
+
 #### To Do:
 
 1. Fix SNS topic functionality
