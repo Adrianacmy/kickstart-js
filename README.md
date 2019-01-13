@@ -39,7 +39,9 @@ Starting with the SUN school program, we created a text notification app where f
 
   1. Download the .zip file or clone from the command line
   2. Run ``` npm install ```
-  3. Then run ``` npm run start ```
+  3. `cd` to the `client\` directory
+  4. Run ``` npm install ```
+  5. Then run ``` npm run start ```
 
 ## Getting Started - back-end
 
