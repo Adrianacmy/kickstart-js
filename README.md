@@ -28,11 +28,11 @@ Starting with the SUN school program, we created a text notification app where f
 
 ## Technologies Used
 
-* React
-* AWS CloudFormation
-* AWS Lambda 
-* DynamoDB
-* SNS (Simple Notification Service)
+* React (front-end)
+* AWS CloudFormation (back-end)
+* AWS Lambda (back-end logic)
+* AWS DynamoDB (database for form data storage)
+* AWS SNS (Simple Notification Service) (sends text messages to users)
 * The backend will need to be deployed within IRCO's AWS Account using CloudFormation
 
 ## Getting Started - front-end
