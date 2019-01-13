@@ -1,4 +1,4 @@
-# IRCO Class Notifier
+# IRCO Class Notifier - Team R9-D9 (9)
 Created By Mary Anne Thygesen, Anna Spysz, Claire Flanagan, Adrianna Chen, Sarah Steinberg and Ben Kiggen.
 
 ## About the App
