@@ -6,9 +6,10 @@ Created By Mary Anne Thygesen, Anna Spysz, Claire Flanagan, Adrianna Chen, Sarah
 This app was created in ~6 hours as part of the WeCode2018 Hackathon. The participants contributed as follows: 
 
 * Mary Anne - Team Leader
-* Sarah - Front-end
-* Claire - Front-end
-* Ben - Front-end
+* Sarah - Front-end/Form functionality
+* Claire - Front-end/Design
+* Ben - Front-end/Design
+* Adrianna - Front-end/React
 * Anna - Back-end
 
 ![Screenshot](client/public/screenShot2.png?raw=true "Title")
